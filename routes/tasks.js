@@ -9,8 +9,8 @@ router.route('/')
 
 router.route('/:id')
     .get(getTasks)
-    .post(deleteTasks)
-    .post(updateTasks)
+    .delete(deleteTasks)
+    .patch(updateTasks)
 
 
 
